@@ -70,9 +70,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Sitecore Modules\ManualHtmlCacheClearer\Gallery\Gallery.HtmlCaches.xml" />
+    <Content Include="Sitecore Modules\ManualHtmlCacheClearer\Gallery\Gallery.HtmlCaches.Option.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client\Galleries\HtmlCachesGallery.cs" />
     <Compile Include="Commands\Clear.cs" />
     <Compile Include="Events\HtmlCacheClearRemoteEvent.cs" />
     <Compile Include="Events\HtmlCacheEventHandler.cs" />
